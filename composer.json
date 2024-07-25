@@ -1,0 +1,14 @@
+{
+	"name": "yaman/filezer",
+	"description": "This PHP application is to analyze a text file",
+	"autoload": {
+		"psr-4": {
+			"Filezer\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^8.2",
+		"textrazor/textrazor-php": "^1.0",
+		"vlucas/phpdotenv": "^5.6"
+	}
+}
